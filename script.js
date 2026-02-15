@@ -1,4 +1,4 @@
-const toggle = document.querySelector(".box-ball");
+const boxBall = document.querySelector(".box-ball");
 const ball = document.querySelector(".ball");
 
 const basicPrice = document.querySelector(".box-basic p");
@@ -13,7 +13,7 @@ const originalPrices = {
 
 let monthly = false;
 
-toggle.addEventListener("click", () => {
+boxBall.addEventListener("click", () => {
 
    if (!monthly) {
 
